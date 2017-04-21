@@ -1,0 +1,9 @@
+<h2>Colors List</h2>
+
+<% for (i = 0; i < colorList.length; i++) { %>
+<ul class="color-box">
+  <li class="color" style=" background-color: <%= colorList[i].hex %> "></li>
+  <li class="color-name"><%= colorList[i].keyword %></li>
+  <li class="color-hex"><%= colorList[i].hex %></li>
+</ul>
+<% } %>
